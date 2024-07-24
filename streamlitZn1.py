@@ -117,10 +117,10 @@ def run_models(data):
         st.error(f"Error processing the data: {e}")
         return None
 
-st.title("Effluent (METALS) Prediction")
+st.title("Effluent (Heavy metals) Prediction")
 
 st.markdown("""
-WORK SMARTER! This application allows you to upload an Excel file, predict Industrial Effluent levels using A.I Neural Networks (TDNN), and download the predictions for further analysis. DESIGNED BY KEN.
+WORK SMARTER! This application allows you to upload an Excel file, predict Industrial Effluent levels using A.I; Time-delay Neural Networks (TDNN), and download the predictions for further analysis. DESIGNED BY KEN.
 """)
 
 uploaded_file = st.file_uploader("Upload your Excel file", type=['xlsx'], key='1', accept_multiple_files=False)
